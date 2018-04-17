@@ -6,7 +6,7 @@
 /*   By: eduprat <eduprat@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/16 17:35:32 by eduprat           #+#    #+#             */
-/*   Updated: 2018/04/16 18:12:36 by eduprat          ###   ########.fr       */
+/*   Updated: 2018/04/16 18:27:50 by eduprat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int     main(void)
     char    buffer[buf_size + 1];
 
     // OPEN FILE
-    fd = open("../fillit/files/README.txt", O_RDONLY);
+    fd = open("files/README.txt", O_RDONLY);
     printf("%d\n", fd);
 
     // READ FILE

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   open.c                                             :+:      :+:    :+:   */
+/*   03-open.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: eduprat <eduprat@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/16 16:55:24 by eduprat           #+#    #+#             */
-/*   Updated: 2018/04/16 17:33:42 by eduprat          ###   ########.fr       */
+/*   Updated: 2018/04/16 18:27:41 by eduprat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,10 @@ int     main(void)
 {
     int fd;
     // OPENING FILES
-    fd = open("../fillit/files/count-ones.txt", O_RDONLY);
+    fd = open("files/count-ones.txt", O_RDONLY);
     printf("%d\n", fd);
 
-    fd = open("../fillit/files/README.txt", O_RDONLY);
+    fd = open("files/README.txt", O_RDONLY);
     printf("%d\n", fd);
 
     fd = open("/does/not/exist", O_RDONLY);
