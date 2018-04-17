@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   05-read.c                                          :+:      :+:    :+:   */
+/*   06-read-checks.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: eduprat <eduprat@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/16 17:35:32 by eduprat           #+#    #+#             */
-/*   Updated: 2018/04/16 18:35:46 by eduprat          ###   ########.fr       */
+/*   Updated: 2018/04/16 18:37:04 by eduprat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 
 int     main(void)
 {
+    int     i;
     int     fd;
     int     char_count;
     int     buf_size = 8;
@@ -31,7 +32,13 @@ int     main(void)
     while ((char_count = read(fd, &buffer, buf_size)))
     {
         buffer[char_count] = '\0';
-        printf("%s", buffer);
+        i = 0;
+        while (buffer[i])
+        {
+            if (buffer[i] == '1')
+                printf("its a 1\n");
+            i++;
+        }
     }
     
     return (0);

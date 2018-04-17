@@ -6,7 +6,7 @@
 /*   By: eduprat <eduprat@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/16 17:35:32 by eduprat           #+#    #+#             */
-/*   Updated: 2018/04/16 18:08:30 by eduprat          ###   ########.fr       */
+/*   Updated: 2018/04/16 18:31:54 by eduprat          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,14 @@ int     main(void)
         printf("-1\n");
         break ;
     }
-        while ((0))
+    while ((0))
     {
         printf("(0)\n");
+        break ;
+    }
+    while ('\0')
+    {
+        printf("\\0\n");
         break ;
     }
     
