@@ -1,0 +1,13 @@
+yo, it works,
+
+which is dope!
+
+But make sure the spacing
+is                correct.
+
+And that this stuff is right:
+!@#$%^&*()-=_+[]\;',./{}|:"<>?`~
+01234567890
+
+good luck!
+$
