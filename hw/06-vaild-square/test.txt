@@ -1,0 +1,26 @@
+....
+....
+....
+....
+goes into the main
+checks the argc to see if its correct 
+then points at the argv which is the function 
+after the function is complete it will print a new line 
+and return(0);
+
+the function
+the function starts by initializing the variables (assignment 
+of an initial value for a data object or variable.)
+then it goes to the file discrptor(fd)
+That line is reading a file... The read function returns how many bytes it
+read, and puts it into char count...
+Since a char is 1 byte, if read returns 13 bytes, then that means it read 13 chars
+
+you then open the file in Read only form 
+you then use an if statment to exit the program if it is
+not the correct file
+then you use a while loop
+buff_size is the number of bytes it will read at a time
+buffer is the string 
+fd is the file
+
